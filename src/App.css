@@ -1,0 +1,150 @@
+
+.homePageWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 100vh;
+}
+
+.formWrapper{
+  background: #282a36;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 28rem;
+  max-width: 90%;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+}
+
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLabel{
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.homepageLogo{
+  height: 5rem;
+  margin-bottom: 2rem;
+}
+
+.inputBox{
+  padding: 0.6rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 0.8rem;
+  background: #eee;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.btn{
+  border: none;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn{
+  background: #4aed88;
+  width: 30%;
+  margin-left: auto;
+  margin-top: 0.3rem;
+}
+
+.joinBtn:hover{
+  background: #2b824c;
+}
+
+.createInfo{
+  margin-top: 1.3rem;
+  text-align: center;
+}
+
+.createInfo a{
+  color: #4aed88;
+  text-decoration: none;
+  border-bottom: 1px solid #4aed88;
+  transition: all 0.3s ease-in-out;
+}
+
+.createInfo a:hover{
+  color: #2b824c;
+}
+
+
+
+.mainWrap{
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.aside{
+  width: 12%;
+  background: #1c1e29;
+  padding: 1rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.asideInner{
+  flex: 1;
+}
+
+.editorWrap{
+  width: 88%;
+}
+
+.logoImg{
+  width: 10rem;
+}
+
+.clientsList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+}
+
+.logo{
+  border-bottom: 1px solid #424242;
+  padding-bottom: 1rem;
+}
+
+.leaveBtn{
+  margin-top: 1rem;
+  background: rgb(255, 90, 90);
+}
+
+.leaveBtn:hover{
+  background: rgb(255, 42, 42);
+}
+
+
+.CodeMirror{
+  width: 100%;
+  min-height: calc(100vh - 20px);
+  font-size: 1.2rem;
+  line-height: 1.6;
+  padding-top: 1rem;
+}
