@@ -37,12 +37,14 @@ function getAllConnectedCients(roomId){
 
 }
 
+
 // To do when each connection was established
 
 io.on('connection', (socket)=>{
 
     // received the event from frontend
-
+    
+    
     socket.on(ACTIONS.JOIN, ({roomId, username})=>{
     
         userSocketMap[socket.id] = username;
