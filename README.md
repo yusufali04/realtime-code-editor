@@ -19,6 +19,25 @@ A realtime code editor where we can create rooms, join rooms using room Id,leave
 - Notifications when anyone in the room enters or leaves
 - Shows the list of all the users present in the room
 
+## Run Locally
+
+Go to the project directory
+
+```bash
+  cd ecommerce-app
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  node server.js
+```
 
 ## Screenshots
 
