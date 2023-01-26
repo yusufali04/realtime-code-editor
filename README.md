@@ -24,7 +24,7 @@ A realtime code editor where we can create rooms, join rooms using room Id,leave
 Go to the project directory
 
 ```bash
-  cd ecommerce-app
+  cd realtime-code-editor
 ```
 
 Install dependencies
