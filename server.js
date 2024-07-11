@@ -3,6 +3,7 @@ const app = express();
 const http = require('http')
 const {Server} = require('socket.io')
 const ACTIONS = require('./src/Actions')
+const path = require('path')
 
 const server = http.createServer(app);
 const io = new Server(server);
@@ -11,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.static('build'));
 
 app.use((req, res, next)=>{
-    res.sendFile(__dirname+'/build/index.html')
+    res.sendFile(path.resolve(__dirname, "build", "index.html"))
 })
 
 // Storing socket ID and username of that socket id (Binding socketid with username)
