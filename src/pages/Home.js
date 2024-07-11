@@ -52,13 +52,13 @@ const Home = ()=>{
                     <button type='submit' className='btn joinBtn' onClick={joinRoom}>Join</button>
 
                     </form>
-                   
-                    <span className='createInfo'>Don't have an invite link? <a onClick={createNewRoom} className='createRoomBtn'>Create Room</a></span>
-
+                    {/* eslint-disable jsx-a11y/anchor-is-valid */}
+                    <span className='createInfo'>Don't have an invite link? <a onClick={createNewRoom}  className='createRoomBtn'>Create Room</a></span>
+                    {/* eslint-disable jsx-a11y/anchor-is-valid */}
             </div>
 
             <footer>
-                <h4>Built with <span role="img" aria-label="Love Emoji">💚</span> by Yusuf</h4>            
+                <h4>Built with <span role="img" aria-label="Love">💚</span> by Yusuf</h4>            
             </footer>
         
         </div>
