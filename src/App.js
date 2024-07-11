@@ -1,6 +1,6 @@
 import './App.css';
-import React, { Component }  from 'react';
-import {BrowserRouter, Routes, Route, Router} from 'react-router-dom';
+import React  from 'react';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import EditorPage from './pages/EditorPage';
 import {Toaster} from 'react-hot-toast';

@@ -120,7 +120,7 @@ const EditorPage = ()=>{
 
                 <div className='logo'>
 
-                    <img className='logoImg' src='/code-sync.png'></img>
+                    <img className='logoImg' alt='logo image' src='/code-sync.png'></img>
 
                 </div>
 

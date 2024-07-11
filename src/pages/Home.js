@@ -42,7 +42,7 @@ const Home = ()=>{
         <div className='homePageWrapper'>
 
             <div className='formWrapper'>
-                <img src='code-sync.png' className='homepageLogo'></img>
+                <img src='code-sync.png' alt='code-sync' className='homepageLogo'></img>
                 <h4 className='mainLabel'>Paste invitation Room ID</h4>
 
                     <form className='inputGroup'>
@@ -53,12 +53,12 @@ const Home = ()=>{
 
                     </form>
                    
-                    <span className='createInfo'>Don't have an invite link? <a onClick={createNewRoom} href='' className='createRoomBtn'>Create Room</a></span>
+                    <span className='createInfo'>Don't have an invite link? <a onClick={createNewRoom} className='createRoomBtn'>Create Room</a></span>
 
             </div>
 
             <footer>
-                <h4>Built with 💚 by Yusuf</h4>            
+                <h4>Built with <span role="img" aria-label="Love Emoji">💚</span> by Yusuf</h4>            
             </footer>
         
         </div>
